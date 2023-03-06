@@ -1,0 +1,329 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+ul{
+    padding: 0px!important;
+}
+
+header {
+    background-color: rgb(48, 45, 45);
+
+}
+
+.header1 {
+    width: 100%;
+    background-color: rgb(48, 45, 45);
+    height: 60px;
+}
+
+main, content{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    padding: 16px;
+    width: 75%;
+    
+}
+
+.redes ul li {
+    margin-left: 25px;
+    display: inline-block;
+    list-style: none;
+}
+
+.redes {
+    
+    float: right;
+}
+
+.header2{
+    background-color: white;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.menu ul li{
+    display: inline-block;
+    color:rgb(48, 45, 45); 
+    margin-left: 15px;
+    height: 50px;
+}
+
+.menu ul li:hover{
+   border-bottom: 3px solid  rgb(21, 78, 202);
+
+}
+.menu ul li a{
+    color:rgb(48, 45, 45);
+    font-size:18px ; 
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    
+}
+.menu ul li a:hover{
+   color:  rgb(21, 78, 202);
+}
+
+.menu{
+    width: 70%;
+    float: left;
+    
+}
+.menu-urls{
+    height: 80px;
+    border-bottom: 3px solid gray;
+    
+}
+
+.busca{
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+.busca input{
+    
+    background-image: url(/img/icone-search.png);
+    background-repeat: no-repeat;
+    background-position: 96%;
+    width: 190px;
+    padding-left: 12px;
+    height: 36px;
+    margin-top: 10px;
+    border: 1px solid gray;
+}
+.coluna-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    height: 51px;
+    width: 25px;
+    z-index: 9;
+    background-color: transparent;
+    background-image: url(/img/anterior.png);
+    position: absolute;
+    top: 40%;
+    left: 15%;
+
+}
+
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    height: 51px;
+    width: 25px;
+    z-index: 9;
+    background-color: transparent;
+    background-image: url(/img/proximo.png);
+    position: absolute;
+    top: 40%;
+    right: 15%;
+    
+
+}
+.slick-list{
+    width: 100%!important;
+}
+
+.slick-initialized{
+    overflow: hidden;
+}
+
+.slick-dots li button{
+    font-size: 0px;
+    border: 5px solid white;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+
+}
+
+.slick-dots li button:hover{
+background-color: aqua;
+}
+.slick-dots{
+    top: 80%;
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    
+    
+}
+li.slick-active button{
+    background-color: rgb(44, 150, 150);
+}
+
+.slick-dots li{
+    padding-left: 10px;
+  display: inline-block;
+}
+.texto-destaque{
+    text-align: center;
+
+}
+.texto-destaque strong{
+    font-size: 32px;
+    color: black;
+}
+.texto-destaque h1{
+   
+    text-transform: uppercase;
+    font-size: 30px;
+    color: rgb(49, 47, 47);
+}
+.texto-destaque p{
+    font-size: 15px;
+    color: black;
+
+}
+.col-3 {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px; 
+    width: 29%;
+    float: left;
+    position: relative;
+}
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.bloco-imagem {
+    height: 300px;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+.bloco-imagem b, p {
+    text-align: left;
+}
+.bloco-texto {
+    margin-top: 3em;
+}
+
+h3 {
+    font-weight: normal!important;
+}
+
+.bloco-imagens-texto {
+    background-color: #eeeeee;
+}
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: #ffffff;
+    background-image: url('/img/setinha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    background: #eeeeee;
+} 
+.col-4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.col-4 img {
+cursor: pointer;
+ margin: 0 auto;
+ padding-top: 1em;
+ vertical-align: middle;
+}
+.col-4 img:hover {
+    margin-top: 10px!important;
+    position: relative!important;
+}
+
+.bloco-logos {
+    float: right;
+    height: 170px;
+}
+
+.bloco-logos img {
+    margin-top: 50px;
+}
+
+.footer h3 {
+    text-align: left;
+}
+
+.footer {
+    background-image: url('/img/footer.png');
+   
+   
+}
+
+.footer-2 {
+    background-image: url('/img/footer2.png');
+    color: #c1c1c1;
+    height: 90px;
+    
+    
+}
+
+
+.footer p {
+    width: 90%;
+    text-align: left;
+}
+
+.footer-2 p {
+    padding: 10px;
+}
+
+.clock {
+    color: #898989!important;
+}
+
+.clock:before {
+    content: '';
+    width:  15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url('/img/clock.png');
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+
+.local:before, .emailico:before, .telefoneico:before {
+    content: '';
+    width:  17px;
+    height: 24px;
+    display: inline-block;
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+.local:before {
+    background-image: url('/img/local.png');
+}  
+.emailico:before {
+    background-image: url('/img/email.png');
+}  
+.telefoneico:before {
+    background-image: url('/img/telefone.png');
+}  
